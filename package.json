@@ -1,0 +1,33 @@
+{
+    "name": "emeta",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "get import.meta.url for commonJS",
+    "license": "MIT",
+    "homepage": "https://github.com/XinChou16/emeta#README",
+    "author": "Xin Chou <violetsshine@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/XinChou16/emeta.git"
+    },
+    "keywords": [
+        "esm",
+        "cjs",
+        "import",
+        "meta",
+        "url",
+        "join",
+        "dirname",
+        "__dirname",
+        "filename",
+        "__filename"
+    ],
+    "files": [
+        "index.js"
+    ],
+    "main": "index.js",
+    "typings": "index.d.ts",
+    "scripts": {
+        "test": "node test.js"
+    }
+}
